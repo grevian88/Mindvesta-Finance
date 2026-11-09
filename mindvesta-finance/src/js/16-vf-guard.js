@@ -1,1 +1,0 @@
-(function(){var last=new WeakMap();document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('button[data-k="save"],button[data-k="ok"],.pt-sp,.pb,#pg');if(!b)return;var t=Date.now(),p=last.get(b);if(p&&t-p<800){e.stopImmediatePropagation();e.preventDefault();return}last.set(b,t)},true)})();

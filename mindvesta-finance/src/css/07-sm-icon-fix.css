@@ -1,7 +1,0 @@
-
-  /* Isolasi tiap ikon agar pseudo-element neon tetap berada di dalam kotaknya. */
-  #SM .ib { isolation: isolate; font-size: 22px; line-height: 1; }
-  #SM .ib::before { z-index: -1; }
-  /* Konten elemen (termasuk SVG) selalu berada di atas lapisan gradien. */
-  #SM .ib > * { position: relative; z-index: 1; }
-  #SM .ib > svg { position: relative; z-index: 1; }
