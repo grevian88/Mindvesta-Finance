@@ -1,0 +1,5 @@
+
+@media (max-width:360px){
+ .etop{padding:12px 8px 6px}.ety{gap:4px}.ety button.on{padding:0 10px 0 6px;font-size:13px}
+ .etb{padding:8px 8px 0;gap:4px}.etb>button{min-width:0;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px;padding:8px 8px;flex:0 1 auto}.etb>button[data-a=ecur]{flex:none;margin-left:auto}
+}

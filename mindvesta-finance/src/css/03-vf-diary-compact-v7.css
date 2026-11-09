@@ -1,0 +1,20 @@
+
+/* Compact rectangular diary selector: reduce the highlighted upper area without widening it. */
+.vf-diary-panel{gap:8px;margin:0 0 10px;padding:9px;border-radius:17px}
+.vf-diary-panel:before{width:76px;height:76px;right:-18px;top:-24px;opacity:.65}
+.vf-diary-select{display:grid;gap:7px;min-width:0;padding:9px 10px;border:1px solid color-mix(in srgb,var(--ln) 90%,transparent);border-radius:13px;background:color-mix(in srgb,var(--bg) 42%,transparent)}
+.vf-diary-head{gap:6px}
+.vf-diary-heading{gap:7px}
+.vf-diary-heading-icon{width:29px;height:29px;border-radius:9px;font-size:16px}
+.vf-diary-heading small{font-size:8px;letter-spacing:.13em}
+.vf-diary-heading b{font-size:14px;letter-spacing:-.02em}
+.vf-diary-count{padding:4px 7px;font-size:9px}
+.vf-diary-books{gap:6px;padding:0;min-height:0}
+.vf-diary-book{gap:6px;padding:7px 9px;border-radius:10px;font-size:12px}
+.vf-diary-book-icon{font-size:15px}
+.vf-diary-current{font-size:7px;padding:2px 5px}
+.vf-diary-actions{gap:6px}
+.vf-diary-action{min-height:38px;padding:5px 4px;border-radius:11px;font-size:clamp(9px,2.65vw,11px);gap:4px}
+.vf-diary-action-icon{width:22px;height:22px;flex-basis:22px;border-radius:7px;font-size:14px}
+@media(min-width:480px){.vf-diary-panel{padding:10px;gap:9px}.vf-diary-select{padding:10px 12px}.vf-diary-action{min-height:40px;font-size:11px}}
+@media(max-width:350px){.vf-diary-panel{padding:8px}.vf-diary-select{padding:8px}.vf-diary-heading b{font-size:13px}.vf-diary-book{font-size:11px;padding:6px 8px}.vf-diary-action{font-size:9px;min-height:36px}}

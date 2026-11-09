@@ -1,0 +1,29 @@
+
+/* ===== VitalFinance Pro · lapisan ikon & tata letak (aditif, tidak mengubah logika) ===== */
+:root{--vf-emo:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif}
+[data-vfi]:not(.dot)::before{content:attr(data-vfi);display:inline-block;margin-right:.4em;font-family:var(--vf-emo);font-style:normal;font-weight:400;line-height:1;vertical-align:-.05em}
+.dot[data-vfi]{font-size:0;line-height:1}
+.dot[data-vfi]::before{content:attr(data-vfi);font-family:var(--vf-emo);font-size:19px;line-height:1}
+.vf-hide{display:none}
+/* hierarki & jarak (hanya tampilan Pria / halaman utama) */
+main{gap:14px;padding:16px}
+main .c{padding:16px}
+main .c h3,main .tt{font-size:15px;letter-spacing:-.005em;margin-bottom:10px}
+main .r{padding:12px 0;gap:12px}
+main .dot{width:40px;height:40px;border-radius:14px}
+main .b:not(.s){min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+main .b[style*="width:100%"]{display:flex}
+main .chip{padding:8px 14px;min-height:36px}
+main .hero h2,main .am{overflow-wrap:anywhere}
+main .hero h2{font-size:clamp(22px,8.2vw,30px)}
+main .g2 b{overflow-wrap:anywhere}
+.rm b,.rm small{overflow:hidden;text-overflow:ellipsis}
+nav button{padding:9px 0 8px;font-size:11px;white-space:nowrap}
+nav button.on{position:relative}
+nav button.on::after{content:"";position:absolute;top:0;left:30%;right:30%;height:3px;border-radius:0 0 4px 4px;background:var(--ac)}
+#fab{font-size:30px}
+input,select,textarea{max-width:100%}
+header h1{display:flex;align-items:center;white-space:nowrap;flex:none}
+header .pill{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0;margin-left:10px}
+header .w{gap:8px}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}

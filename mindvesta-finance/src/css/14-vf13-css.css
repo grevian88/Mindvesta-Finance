@@ -1,0 +1,69 @@
+
+body.fm{--k-rose:#e5668d;--k-ink:#5a3045;--k-mut:#a07688;--k-gold:#c4857a;--k-card:#ffffffb8;--k-rim:linear-gradient(135deg,#ffd3e1,#f2c9b4 48%,#dccbff)}
+body.fm .fa,body.fm .eo,body.fm .fnc{font-family:"Nunito","Quicksand",ui-rounded,"SF Pro Rounded","Varela Round","Segoe UI",system-ui,sans-serif;font-variant-numeric:tabular-nums}
+/* warna garis ikon lama → rose-brown hangat */
+body.fm svg[stroke="#6d5a8a"]{stroke:#8a4b63}body.fm svg path[stroke="#6d5a8a"]{stroke:#8a4b63}
+/* latar: blob + pola titik & hati samar */
+body.fm::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.55;background:radial-gradient(circle,#fff 1.6px,transparent 2.2px) 0 0/34px 34px,url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cpath d='M30 52c-14-10-14-26-3-26 5 0 7 4 7 4s2-4 7-4c11 0 11 16-3 26z' fill='%23ffb3cc' opacity='.45'/%3E%3Cpath d='M132 150c-10-7-10-19-2-19 4 0 5 3 5 3s1-3 5-3c8 0 8 12-2 19z' fill='%23dccbff' opacity='.5'/%3E%3Ccircle cx='140' cy='36' r='3' fill='%23ffe29a'/%3E%3C/svg%3E") 0 0/180px 180px}
+/* kartu: bingkai rose-gold gradien + kaca */
+body.fm .fc,body.fm .fwg,body.fm .fbc,body.fm .fml button{border:1.5px solid transparent;background:linear-gradient(#ffffffc9,#fff3f7c4) padding-box,var(--k-rim) border-box;box-shadow:0 20px 38px -20px #d6648c99,0 2px 0 #fff inset}
+body.fm .fsum{background:radial-gradient(120% 90% at 0 0,#ffe6ee,transparent 60%),linear-gradient(#ffffffd0,#fff3f7c8) padding-box,var(--k-rim) border-box}
+body.fm .fr{border:1.5px solid transparent;background:linear-gradient(#ffffffd0,#fff6f9cc) padding-box,var(--k-rim) border-box}
+body.fm .fg .fr:nth-of-type(4n+1) .ft{background:linear-gradient(135deg,#ffdce8,#fff)}
+body.fm .fg .fr:nth-of-type(4n+2) .ft{background:linear-gradient(135deg,#ffe9d6,#fff)}
+body.fm .fg .fr:nth-of-type(4n+3) .ft{background:linear-gradient(135deg,#e8dcff,#fff)}
+body.fm .fg .fr:nth-of-type(4n+4) .ft{background:linear-gradient(135deg,#d9f3e5,#fff)}
+body.fm .ft{box-shadow:0 8px 14px -8px #d6648c,inset 0 0 0 2px #fff}
+body.fm .fx b{color:var(--k-ink);font-weight:800}
+body.fm .fam{color:var(--k-ink)}
+/* judul + header */
+body.fm .ftl{font-size:38px;color:#c2587a;text-shadow:0 2px 0 #fff,0 10px 22px #f6b7cb}
+body.fm .fbk.on{background:linear-gradient(135deg,#f78fb3,#f7bba6);box-shadow:0 10px 20px -8px #e5668d}
+/* stiker ikon buku di kartu ringkasan lebih besar & berkilau */
+body.fm .fbi{width:78px;height:78px;top:-40px;background:radial-gradient(circle at 30% 25%,#fff,#ffd9e6 70%)}
+body.fm .fbi svg{width:54px;height:54px;filter:drop-shadow(0 3px 3px #d6648c55)}
+/* angka besar */
+body.fm .fbig{font-weight:900;text-shadow:0 2px 0 #fff}
+/* tombol pensil → bola gradien bercahaya */
+body.fm .fp .pn{width:58px;height:58px;border-radius:50%;background:linear-gradient(145deg,#f98fb4,#e5668d);box-shadow:0 12px 22px -8px #e5668d,inset 0 2px 0 #ffffff80}
+body.fm .fp .pn svg{width:34px;height:34px}body.fm .fp .pn svg path:first-child{fill:#fff;stroke:#b8446b}body.fm .fp .pn svg path:last-child{stroke:#b8446b}
+body.fm .fp .q{opacity:.95}
+body.fm .fp .q svg{width:28px;height:28px}
+/* dock */
+body.fm .fn{background:#ffffffc4;box-shadow:0 22px 44px -16px #d6648ccc,inset 0 2px 0 #fff}
+body.fm .fn button{position:relative;font-weight:700}
+body.fm .fn button.on{background:linear-gradient(160deg,#ffdce8,#fff0e8);color:var(--k-rose)}
+body.fm .fn button.on:after{content:"";position:absolute;bottom:2px;width:16px;height:4px;border-radius:9px;background:var(--k-rose)}
+body.fm .fn button svg{filter:drop-shadow(0 3px 2px #d6648c33)}
+/* grid fitur, daftar dompet, anggaran */
+body.fm .fti{background:linear-gradient(#ffffffc9,#fff3f7c4) padding-box,var(--k-rim) border-box;border:1.5px solid transparent;border-radius:30px 30px 30px 10px;box-shadow:0 14px 26px -18px #d6648c}
+body.fm .fti b{color:var(--k-ink)}
+body.fm .fgh{color:var(--k-rose);font-weight:800;letter-spacing:.02em}
+body.fm .fgh:before{content:"✿ "}
+body.fm .fdn{filter:drop-shadow(0 8px 10px #f3b5c855)}
+body.fm .fbm{color:var(--k-rose)}
+body.fm input,body.fm .fs input,body.fm .fnn input{border-radius:999px}
+body.fm .fs input{border:1.5px solid #f6c9d8;background:#ffffffcc;padding:10px 16px}
+/* ikon header yang tadinya putih-di-putih */
+body.fm .fic svg[stroke="#fff"]{stroke:currentColor}
+/* tombol melayang dipadatkan jadi bola kecil agar tak menutupi konten */
+body.fm .fe-pill{left:12px;width:44px;height:44px;padding:0;font-size:0;display:grid;place-items:center;border-radius:50%;bottom:calc(104px + env(safe-area-inset-bottom))}
+body.fm .fe-pill:before{content:"🔥";font-size:20px}
+body.fm #vfs-btn{bottom:calc(158px + env(safe-area-inset-bottom))}
+body.fm .fsimp{margin-bottom:32px}
+body.fm .fbi{top:-34px}
+/* sheet catat transaksi: keypad lembut, bukan blok pink pekat */
+body.fm .ep{background:linear-gradient(#fffafc,#fff3f7)}
+body.fm .pad{background:linear-gradient(180deg,#ffe3ec,#ffd0e0);border:0;border-radius:38px 38px 0 0;box-shadow:0 -14px 30px -18px #d6648c}
+body.fm .pad .hd{color:#e5668d}
+body.fm .pg button{background:#ffffffc8;box-shadow:0 4px 0 #f3b9cd;border-radius:22px;color:var(--k-ink)}
+body.fm .pg button.n{background:#fff;box-shadow:0 4px 0 #f3c3d4;font-weight:800}
+body.fm .pg .acc{background:linear-gradient(135deg,#f98fb4,#e5668d);color:#fff;box-shadow:0 4px 0 #c2507a}
+body.fm .pg .ed{background:#fff;border-radius:22px}
+body.fm .ety button.on,body.fm .eoc button.on{background:linear-gradient(135deg,#f78fb3,#f7bba6);color:#fff;border-color:transparent}
+body.fm .et{border-radius:26px}body.fm .et.on{background:linear-gradient(#fff,#ffeaf1);border-color:#f6a9c2;box-shadow:0 10px 18px -12px #e5668d}
+body.fm .et svg{width:40px;height:40px}
+body:has(.eo) #vfs-btn,body:has(.eo) .fe-pill,body:has(.dm) #vfs-btn,body:has(.dm) .fe-pill{display:none}
+/* hover bounce lebih halus pada ikon */
+@media(hover:hover){body.fm .fti:hover,body.fm .fml button:hover{animation:vfBounce .5s ease}}
+@media(prefers-reduced-motion:reduce){body.fm:after{opacity:.35}}
